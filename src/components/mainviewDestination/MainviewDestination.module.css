@@ -1,0 +1,148 @@
+.container {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+     justify-content: start;
+  }
+  .link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+    justify-content: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+   
+    padding: 50px;
+    cursor:pointer
+  }
+  
+  .Div {
+    box-shadow: 0.01px 0.1px 5px 0.1px;
+    background: white;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+  }
+  .imgDiv {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .image {
+    width: 350px;
+    height: 250px;
+    transition: all 1s ease-in-out;
+    background-color: #040404;
+    opacity: 1;
+  }
+  .image:hover{
+    transform: scale(1.1);
+    filter: blur(3px);
+  }
+  
+  .titleDiv {
+    padding: 0px 10px;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0px;
+  }
+  
+  .title {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+  }
+  
+  .detailDiv {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .text1 {
+    margin: 10px;
+  }
+  
+  .text1Button {
+    padding: 5px 10px;
+    border: 1px solid var(--sidebarFontColor);
+    font-size: 16px;
+    border-radius: 2px;
+    background: white;
+    color: var(--sidebarFontColor);
+    font-weight: 900;
+  }
+  
+  .price {
+    display: none;
+    margin: 0px 10px;
+    line-height: 1px;
+    text-align: start;
+    
+  }
+  
+  .price1 {
+    font-size: 12px;
+  }
+  
+  .price2 {
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--sidebarFontColor);
+  }
+  
+  .durationText {
+    display: flex;
+    background: var(--sidebarFontColor);
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+  }
+  
+  .duration {
+    display: flex;
+    border-radius: 2px;
+    /* margin: 10px; */
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    border-radius: 2px;
+  }
+
+  .headerDiv{
+      width: 100%
+  }
+  .header {
+      font-size: 20px;
+      font-weight: 900;
+     color: rgb(48, 46, 46);
+
+  }
+  
+  @media screen and (max-width: 600px) {
+      .container {
+          padding: 10px;
+  
+        }
+        .content {
+          padding: 10px 20px;
+          justify-content: center;
+          width: 100%;
+        }
+        .image {
+          width: 300px;
+          height: 280px;
+          transition: all 1s ease-in-out;
+        }
+  }
+  

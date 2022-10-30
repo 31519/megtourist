@@ -1,0 +1,148 @@
+.gridContent {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 80%;
+  line-height: 2;
+}
+
+.titleContainer {
+  margin: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.gridDiv {
+  padding: 20px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.vision {
+  font-size: 30px;
+  color: black;
+  font-weight: 900;
+}
+.visionDiv {
+  justify-content: center;
+  width: 100%;
+}
+
+.storyDiv {
+  justify-content: center;
+  width: 100%;
+}
+.heading1,
+.heading2 {
+  font-size: 18px;
+  color: #3c3939;
+  font-weight: 700;
+}
+
+.imgDiv {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 450px;
+  height: 300px;
+  transition: all 1s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+
+/* Image Founder */
+
+.imgFounder {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.founderimg {
+  width: 150px;
+  height: 150px;
+  transition: all 1s ease-in-out;
+}
+.founderimg:hover {
+  transform: scale(1.1);
+}
+
+/* Image Founder */
+
+.story {
+  font-size: 30px;
+  color: black;
+  font-weight: 900;
+}
+.content {
+  font-size: 18px;
+  color: #3c3939;
+  font-weight: 700;
+}
+
+.founder {
+  font-size: 30px;
+  color: black;
+  font-weight: 900;
+}
+.founderName {
+  font-size: 18px;
+  color: #3c3939;
+  font-weight: 700;
+}
+.founderDiv2 {
+  display: flex;
+}
+
+.bold {
+    font-size: 20px;
+    color: #1f1e1e;
+    font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  .imgDiv {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .image {
+    width: 300px;
+    height: 250px;
+    transition: all 1s ease-in-out;
+  }
+
+  .founderDiv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Image Founder */
+
+  .imgFounder {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .founderimg {
+    width: 300px;
+    height: 200px;
+    transition: all 1s ease-in-out;
+  }
+  .founderimg:hover {
+    transform: scale(1.1);
+  }
+  /* Image Founder */
+}
