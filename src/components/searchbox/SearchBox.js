@@ -18,6 +18,8 @@ function SearchBox() {
     queryParams = new URLSearchParams(document.location.search.substring(1));
   }
 
+  // d
+
   const searchHandler = async (e) => {
     e.preventDefault();
     var path;
